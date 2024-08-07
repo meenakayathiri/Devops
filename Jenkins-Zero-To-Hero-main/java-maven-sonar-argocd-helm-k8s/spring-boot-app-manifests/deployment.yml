@@ -16,10 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-<<<<<<< HEAD
-        image: evertz2022/devops:replaceImageTag
-=======
-        image: abhishekf5/ultimate-cicd:13
->>>>>>> dacf73687ac0c1033e1d95362b51f938e1a79740
+        image: evertz2022/devops:13
         ports:
         - containerPort: 8080
